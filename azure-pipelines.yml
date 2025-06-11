@@ -2,7 +2,7 @@ trigger:
   - main
 
 pool:
-  name: 'localpool' # Your self-hosted agent pool name
+  name: 'local' # Your self-hosted agent pool name
 
 steps:
   # Step 1: Checkout the Code from GitHub
